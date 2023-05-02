@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@500&display=swap');
+body {
+  margin: 0;
+  font-family: 'Genos', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bs1{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.spinner{
+  position:absolute;
+  top:50%;
+  left:50%;
+  z-index:1;
+}
+h1{
+  font-size: 35px;
+  font-weight: bold;
+  color:rgb(37, 178, 200);
+}
+p{
+  margin:5px !important;
+  /* text-align:left; */
+  padding:0;
+}
+.btn1{
+  box-shadow:none !important;
+  background-color: white;
+  color:rgb(65, 122, 131) !important;
+  border: 1px solid rgb(37, 178, 200);
+  font-weight: bold;
+  padding: 7px 14px !important;
+}
+.header{
+  padding:10px;
+}
+.content{
+  min-height:90vh;
+}
+.carimg{
+  height:200px;
+  width:auto;
+  border-radius:5px;
+  transform:translateY(-60px);
+}
+.car-content{
+  transform: translateY(-200px);
+  opacity: 0;
+  transition:0.3s;
+}
+.car{
+  border-radius:5px;
+  margin-top: 100px;
+  height: 160px;
+  transition:0.3s;
+}
+.car:hover{
+  height:220px;
+}
+.car:hover > .car-content{
+  opacity:1;
+  transform: translateY(-50px);
+}
+.te1{
+  font-size: 15px;
+  font-weight: bold;
+  color:rgb(65, 122, 131) !important;
+}
+.login{
+  background-color: black;
+  min-height: 100vh;
+  padding-top: 180px;
+  background: url(https://i0.wp.com/www.theunstitchd.com/wp-content/uploads/2019/04/TOP-BLACK-MATTE-EDITION-CARS..jpg?fit=1920%2C1080) center fixed no-repeat black;
+
+}
+.login label, .login h1{
+  color:white !important;
+  opacity:0.6;
+}
+.login-form{
+  background-color: #1F1F1F;
+}
+.login-form input{
+  background-color: #333333 !important;
+  border:none !important;
+  color: white;
+  opacity: 0.5;
+}
+.login a{
+  color: white !important;
+  opacity: 0.5;
+}
+.header .ant-btn{
+  box-shadow:none !important;
+  background-color: white;
+  color:rgb(65, 122, 131) !important;
+  border: 1px solid rgb(37, 178, 200);
+  font-weight: bold;
+  padding: 7px 14px !important;
+}
+.carImg2{
+  height:400px;
+  width:auto;
+  border-radius: 10px;
+}
+.footer{
+  background-color: aliceblue;
+}
