@@ -42,3 +42,4 @@ router.post("/register",body('password').isLength({min:3}), async(req, res) => {
 
 
 module.exports = router
+
