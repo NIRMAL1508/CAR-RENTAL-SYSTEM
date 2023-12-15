@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Car_Rental_system](https://github.com/NIRMAL1508/CAR-RENTAL-SYSTEM/assets/86112673/c92326e9-0673-4a02-aa72-562a8a9cdc0f)
 
 ## Available Scripts
 
